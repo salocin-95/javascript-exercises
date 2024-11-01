@@ -1,5 +1,5 @@
 const removeFromArray = (array, ...input) => {
-    return array.filter((element) => element != input)
+    return array.filter(element => !input.includes(element))
 }
 
 // Do not edit below this line
