@@ -1,4 +1,4 @@
-const sumAll = function() {
+const sumAll = function(a, b) {
     if ((a % 1 === 0) === false || (b % 1 === 0) === false) return 'ERROR';
     if (a < 0 || b < 0) return 'ERROR';
     if (Number.isInteger(a) === false || Number.isInteger(b) === false) return 'ERROR';
